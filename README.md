@@ -1,4 +1,5 @@
 ## 使用 hyperf 官方 docker
+練習裡面沒有使用服務提供者 consul
 
 # 下載並執行 hyperf/hyperf 映象，並將映象內的專案目錄繫結到宿主機的 /tmp/skeleton 目錄
 docker run -v /Users/monica/Documents/swoole_project_test/json_rpc_client:/hyperf-skeleton -p 9503:9503 -it --entrypoint /bin/sh hyperf/hyperf:7.2-alpine-cli Name="hyperf_json_rpc_client"
