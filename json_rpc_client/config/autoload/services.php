@@ -1,7 +1,7 @@
 <?php
 
 return [
-    // fuck fuck fuck 這裡是 一組服務 ＝ 一個陣列
+    // fuck fuck fuck 這裡是 一組服務 ＝ 一個陣列 consumers 是二維！！！！！！！！！！！！
     'consumers' => [
         [
             'name' => 'CalculatorService',

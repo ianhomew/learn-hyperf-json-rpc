@@ -23,7 +23,7 @@ return [
             'port' => 9503,
             'sock_type' => SWOOLE_SOCK_TCP,
             'callbacks' => [
-//                SwooleEvent::ON_REQUEST => [Hyperf\JsonRpc\HttpServer::class, 'onRequest'],
+                // Client 端依舊是 http server
                 SwooleEvent::ON_REQUEST => [\Hyperf\HttpServer\Server::class, 'onRequest'],
             ],
         ],
